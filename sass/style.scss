@@ -1,0 +1,134 @@
+@import "globals";
+@import "normalize";
+@import "root";
+
+img{
+    height: auto;
+    width: 40%;
+    border-radius: 5%;
+    
+    
+
+}
+.head1 {
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;;
+}
+.head2{
+    display: block;
+   
+    flex: 1;
+    
+   
+}
+.head3{
+    display: block;
+    width: 50%;
+
+   
+
+
+    h3{
+        box-sizing: border-box;
+        
+    }
+    
+
+    p{
+        word-wrap: normal;
+        margin-top: 2%;
+        margin-right: 5%;
+       
+    }
+    
+    
+ 
+}
+
+.team{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-flow: row wrap;
+   
+   
+}
+
+.job{
+    writing-mode: vertical-lr;
+    position: absolute;
+    top:0 ;
+    left:45%;
+    
+    
+    
+}
+.team1{
+    display: block;
+    position: relative;
+    width: auto;
+    width: 50%;
+    margin-bottom: 5%;
+   
+}
+.team2{
+    display: block;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.team3{
+    display: block;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.team4{
+    display: block;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.team5{
+    display: block;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.team6{
+    display: block;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+
+.team2, .team4, .team6{
+    position: relative;
+    top: 75px;
+}
+
+#name{
+    width: auto;
+}
+
+@media (max-width: 769px){
+    body{display:flex;
+        flex-flow:column wrap;
+    }
+}
+    
